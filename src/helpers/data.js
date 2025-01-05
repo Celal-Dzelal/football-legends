@@ -666,4 +666,12 @@ export const data = [
       "https://www.transfermarkt.us/zlatan-ibrahimovic/profil/spieler/3455",
     official_career: "1999-2023",
   },
+  {
+    id: 77,
+    name: "Dzelal Velislav Zmajevic",
+    img: "https://avatars.githubusercontent.com/u/177534462?v=4",
+    statistics: ["172 Commits", "62 Stars", "Longest Streak 19", "17 Repo"],
+    profile: "https://github.com/Celal-Dzelal",
+    official_career: "2025-Continue",
+  },
 ];

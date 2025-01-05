@@ -21,3 +21,26 @@ body {
   display: inline-block;
   font-family: "Bangers", serif;
 }
+
+.card-container {
+  background-color: rgba(27, 27, 177, 0.6);
+  min-height: 350px;
+}
+
+.player-card {
+  height: 400px !important;
+  overflow: hidden;
+}
+
+.player-card img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s;
+  filter: sepia(0.5);
+}
+
+.player-card img:hover {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  filter: none;
+}
