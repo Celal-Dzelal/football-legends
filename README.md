@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Football Legends
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Football Legends is a React-based web application featuring 76 legendary football players. Each card provides quick access to a player's statistics when clicked. The application is fully responsive, ensuring seamless usability across all devices.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+![Project Demo](./public/Demo.gif)
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: The main framework for building the application.
+- **React-Bootstrap**: For elegant and responsive UI components.
+- **Google Fonts**: To enhance the design with custom typography.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Player Cards**: 76 legendary football players are showcased with detailed statistics accessible through their cards.
+- **Interactive Design**: Users can interact with cards for an engaging experience.
+- **Responsive Layout**: Compatible with mobile, tablet, and desktop screens.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## File Structure
 
-### `npm run build`
+```plaintext
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📜bg-image.png            # Background image for the application
+ ┃ ┗ 📜logo.png                # Logo used in the header
+ ┣ 📂components
+ ┃ ┣ 📂Header
+ ┃ ┃ ┗ 📜Header.jsx            # Header component of the application
+ ┃ ┗ 📂Legends
+ ┃ ┃ ┣ 📜CardLegends.jsx       # Component to render individual player cards
+ ┃ ┃ ┗ 📜ContainerLegends.jsx  # Container component for player cards
+ ┣ 📂helpers
+ ┃ ┗ 📜data.js                 # Data file containing player information
+ ┣ 📜App.css                   # Global styles for the application
+ ┣ 📜App.js                    # Root component of the app
+ ┣ 📜index.css                 # Styles for the app entry point
+ ┗ 📜index.js                  # Main entry point for React
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- This project is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute this software under the terms of the license.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribution
 
-### `npm run eject`
+- Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- For questions or suggestions, please reach out. I'd love to hear from you!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
